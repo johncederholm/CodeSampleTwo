@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16289B681F9FC4EA004EC1A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16289B671F9FC4EA004EC1A4 /* AppDelegate.swift */; };
+		16289B6A1F9FC4EA004EC1A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16289B691F9FC4EA004EC1A4 /* ViewController.swift */; };
+		16289B6D1F9FC4EA004EC1A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16289B6B1F9FC4EA004EC1A4 /* Main.storyboard */; };
+		16289B701F9FC4EA004EC1A4 /* Voting_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16289B6E1F9FC4EA004EC1A4 /* Voting_App.xcdatamodeld */; };
+		16289B721F9FC4EA004EC1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16289B711F9FC4EA004EC1A4 /* Assets.xcassets */; };
+		16289B751F9FC4EA004EC1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16289B731F9FC4EA004EC1A4 /* LaunchScreen.storyboard */; };
+		16289BDF1FA096D7004EC1A4 /* PagingScrollZoomable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16289B9D1F9FD36D004EC1A4 /* PagingScrollZoomable.swift */; };
+		16289BE01FA096D7004EC1A4 /* PagingScrollOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16289BA11F9FE31A004EC1A4 /* PagingScrollOptions.swift */; };
+		16289BE11FA096D7004EC1A4 /* PagingScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16289B9B1F9FD02F004EC1A4 /* PagingScroll.swift */; };
+		16289BE21FA096D7004EC1A4 /* PictureImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16289B9F1F9FD3D6004EC1A4 /* PictureImageView.swift */; };
+		16289BFE1FA0ABFF004EC1A4 /* PagingScrollTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16289BFD1FA0ABFF004EC1A4 /* PagingScrollTap.swift */; };
+		16289C001FA0ACA9004EC1A4 /* HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16289BFF1FA0ACA9004EC1A4 /* HelperMethods.swift */; };
+		16289C021FA0B005004EC1A4 /* ExplanationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16289C011FA0B005004EC1A4 /* ExplanationLabel.swift */; };
+		16289C071FA0B183004EC1A4 /* BottomFadeAwayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16289C061FA0B183004EC1A4 /* BottomFadeAwayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		16289BA91FA0944F004EC1A4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		16289B651F9FC4EA004EC1A4 /* Voting App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voting App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16289B671F9FC4EA004EC1A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16289B691F9FC4EA004EC1A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16289B6C1F9FC4EA004EC1A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16289B6F1F9FC4EA004EC1A4 /* Voting_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Voting_App.xcdatamodel; sourceTree = "<group>"; };
+		16289B711F9FC4EA004EC1A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16289B741F9FC4EA004EC1A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16289B761F9FC4EA004EC1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16289B9B1F9FD02F004EC1A4 /* PagingScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScroll.swift; sourceTree = "<group>"; };
+		16289B9D1F9FD36D004EC1A4 /* PagingScrollZoomable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScrollZoomable.swift; sourceTree = "<group>"; };
+		16289B9F1F9FD3D6004EC1A4 /* PictureImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureImageView.swift; sourceTree = "<group>"; };
+		16289BA11F9FE31A004EC1A4 /* PagingScrollOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScrollOptions.swift; sourceTree = "<group>"; };
+		16289BFD1FA0ABFF004EC1A4 /* PagingScrollTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScrollTap.swift; sourceTree = "<group>"; };
+		16289BFF1FA0ACA9004EC1A4 /* HelperMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperMethods.swift; sourceTree = "<group>"; };
+		16289C011FA0B005004EC1A4 /* ExplanationLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationLabel.swift; sourceTree = "<group>"; };
+		16289C061FA0B183004EC1A4 /* BottomFadeAwayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomFadeAwayView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16289B621F9FC4EA004EC1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16289B661F9FC4EA004EC1A4 /* Voting App */ = {
+			isa = PBXGroup;
+			children = (
+				16289B671F9FC4EA004EC1A4 /* AppDelegate.swift */,
+				16289B691F9FC4EA004EC1A4 /* ViewController.swift */,
+				16289BFF1FA0ACA9004EC1A4 /* HelperMethods.swift */,
+				16289C011FA0B005004EC1A4 /* ExplanationLabel.swift */,
+				16289C061FA0B183004EC1A4 /* BottomFadeAwayView.swift */,
+				16289BE31FA096DD004EC1A4 /* PagingScrollSrc */,
+				16289B6B1F9FC4EA004EC1A4 /* Main.storyboard */,
+				16289B711F9FC4EA004EC1A4 /* Assets.xcassets */,
+				16289B731F9FC4EA004EC1A4 /* LaunchScreen.storyboard */,
+				16289B761F9FC4EA004EC1A4 /* Info.plist */,
+				16289B6E1F9FC4EA004EC1A4 /* Voting_App.xcdatamodeld */,
+			);
+			path = "Voting App";
+			sourceTree = "<group>";
+		};
+		16289BE31FA096DD004EC1A4 /* PagingScrollSrc */ = {
+			isa = PBXGroup;
+			children = (
+				16289B9B1F9FD02F004EC1A4 /* PagingScroll.swift */,
+				16289BFD1FA0ABFF004EC1A4 /* PagingScrollTap.swift */,
+				16289B9D1F9FD36D004EC1A4 /* PagingScrollZoomable.swift */,
+				16289B9F1F9FD3D6004EC1A4 /* PictureImageView.swift */,
+				16289BA11F9FE31A004EC1A4 /* PagingScrollOptions.swift */,
+			);
+			path = PagingScrollSrc;
+			sourceTree = "<group>";
+		};
+		16697EAC1F9F35C60027E339 = {
+			isa = PBXGroup;
+			children = (
+				16289B661F9FC4EA004EC1A4 /* Voting App */,
+				16697EB71F9F35C60027E339 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16697EB71F9F35C60027E339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16289B651F9FC4EA004EC1A4 /* Voting App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16289B641F9FC4EA004EC1A4 /* Voting App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16289B931F9FC4EA004EC1A4 /* Build configuration list for PBXNativeTarget "Voting App" */;
+			buildPhases = (
+				16289B611F9FC4EA004EC1A4 /* Sources */,
+				16289B621F9FC4EA004EC1A4 /* Frameworks */,
+				16289B631F9FC4EA004EC1A4 /* Resources */,
+				16289BA91FA0944F004EC1A4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voting App";
+			productName = "Voting App";
+			productReference = 16289B651F9FC4EA004EC1A4 /* Voting App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16697EAD1F9F35C60027E339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "d2i LLC";
+				TargetAttributes = {
+					16289B641F9FC4EA004EC1A4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 16697EB01F9F35C60027E339 /* Build configuration list for PBXProject "Paging Example" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16697EAC1F9F35C60027E339;
+			productRefGroup = 16697EB71F9F35C60027E339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16289B641F9FC4EA004EC1A4 /* Voting App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16289B631F9FC4EA004EC1A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16289B751F9FC4EA004EC1A4 /* LaunchScreen.storyboard in Resources */,
+				16289B721F9FC4EA004EC1A4 /* Assets.xcassets in Resources */,
+				16289B6D1F9FC4EA004EC1A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16289B611F9FC4EA004EC1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16289B6A1F9FC4EA004EC1A4 /* ViewController.swift in Sources */,
+				16289BE21FA096D7004EC1A4 /* PictureImageView.swift in Sources */,
+				16289C021FA0B005004EC1A4 /* ExplanationLabel.swift in Sources */,
+				16289BFE1FA0ABFF004EC1A4 /* PagingScrollTap.swift in Sources */,
+				16289B701F9FC4EA004EC1A4 /* Voting_App.xcdatamodeld in Sources */,
+				16289BE11FA096D7004EC1A4 /* PagingScroll.swift in Sources */,
+				16289C001FA0ACA9004EC1A4 /* HelperMethods.swift in Sources */,
+				16289B681F9FC4EA004EC1A4 /* AppDelegate.swift in Sources */,
+				16289C071FA0B183004EC1A4 /* BottomFadeAwayView.swift in Sources */,
+				16289BDF1FA096D7004EC1A4 /* PagingScrollZoomable.swift in Sources */,
+				16289BE01FA096D7004EC1A4 /* PagingScrollOptions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16289B6B1F9FC4EA004EC1A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16289B6C1F9FC4EA004EC1A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16289B731F9FC4EA004EC1A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16289B741F9FC4EA004EC1A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16289B8D1F9FC4EA004EC1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68AD879D23;
+				INFOPLIST_FILE = "Voting App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OFP.Voting-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		16289B8E1F9FC4EA004EC1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68AD879D23;
+				INFOPLIST_FILE = "Voting App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OFP.Voting-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		16697EC81F9F35C60027E339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16697EC91F9F35C60027E339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16289B931F9FC4EA004EC1A4 /* Build configuration list for PBXNativeTarget "Voting App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16289B8D1F9FC4EA004EC1A4 /* Debug */,
+				16289B8E1F9FC4EA004EC1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16697EB01F9F35C60027E339 /* Build configuration list for PBXProject "Paging Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16697EC81F9F35C60027E339 /* Debug */,
+				16697EC91F9F35C60027E339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16289B6E1F9FC4EA004EC1A4 /* Voting_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16289B6F1F9FC4EA004EC1A4 /* Voting_App.xcdatamodel */,
+			);
+			currentVersion = 16289B6F1F9FC4EA004EC1A4 /* Voting_App.xcdatamodel */;
+			path = Voting_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16697EAD1F9F35C60027E339 /* Project object */;
+}
